@@ -106,9 +106,8 @@ body{
 .right_navi a{
     cursor: pointer;   
 }
-.left_navi .right_navi a:link{color: white; text-decoration: none;}
-.left_navi .right_navi a:hover{text-decoration: none;}
-.left_navi .right_navi a:visited{color: white; text-decoration: none;}
+.left_navi a:link, .left_navi a:hover, .left_navi a:visited{color: white; text-decoration: none;}
+.right_navi a:link, .right_navi a:hover, .right_navi a:visited{color: white; text-decoration: none;}
 
 .center{
     width: 90vw;
@@ -237,7 +236,24 @@ body{
 .top margin a:hover{text-decoration: none;}
 .top margin a:visited{color: black; text-decoration: none;}
 
-
+paper-toolbar {
+    opacity: 0;
+}
+#aligner{
+    opacity:0;
+}
+#toolbar{
+    opacity: 0
+}
+viewer-pdf-toolbar {
+    position: fixed;
+    width: 0%;
+    z-index: -444;
+    opacity: 0;
+}
+object{
+    background: transparent;
+}
 
 
 @media only screen and (min-device-width : 1375px) and (max-device-width : 1680px) { 
