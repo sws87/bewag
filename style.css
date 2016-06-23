@@ -10,6 +10,7 @@
     font-style: normal;
 
 }
+
 @font-face {
     font-family: 'unionregular';
     src: url('font/union_webfont/union_regular-webfont.eot');
@@ -21,6 +22,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
   font-family: 'Tiempos Text Regular';
   src: url('font/Tiempos_web/TiemposText-Regular.eot'); /* IE9 Compat Modes */
@@ -31,6 +33,31 @@
        
   font-style:   normal;
   font-weight:  400;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueLT';
+  src: url('font/helvetica_arabic/HelveticaNeueLTArabic-Light.eot'); /* IE9 Compat Modes */
+  src: url('font/helvetica_arabic/HelveticaNeueLTArabic-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/helvetica_arabic/HelveticaNeueLTArabic-Light.woff') format('woff'), /* Modern Browsers */
+       url('font/helvetica_arabic/HelveticaNeueLTArabic-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/helvetica_arabic/HelveticaNeueLTArabic-Light.svg#55853ca5f9211af500b019c74d96c990') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+    font-family: 'nadeemregular';
+    src: url('font/nadeem_web/nadeem-webfont.eot');
+    src: url('font/nadeem_web/nadeem-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/nadeem_web/nadeem-webfont.woff2') format('woff2'),
+         url('font/nadeem_web/nadeem-webfont.woff') format('woff'),
+         url('font/nadeem_web/nadeem-webfont.ttf') format('truetype'),
+         url('font/nadeem_web/nadeem-webfont.svg#nadeemregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .bold{
@@ -55,6 +82,12 @@
 .t_body{
     font-family: Tiempos Text Regular;
     font-size: 30px;
+    margin: 0;
+}
+.u_head_arabic{
+    font-family: HelveticaNeueLT;
+    font-size: 2.2em;
+    line-height: 1em;
     margin: 0;
 }
     
@@ -94,7 +127,6 @@ body{
     cursor: pointer;   
 }
 .right_navi{
-    display: flex;
     width: 50px;
     height: 100vh;
     background-color:rgba(170,170,170,1);
@@ -136,6 +168,7 @@ body{
     width: 100%;
     background-color:rgba(170,170,170,1);
     height: 50%;
+    float: left;
 } 
 .right_button:hover{
     background-color: black;
@@ -226,7 +259,7 @@ body{
     padding-top: 4vh; 
 }
 .col_3{
-    width: 58%;
+    width: 60%;
     padding-top: 4vh; 
 }
 .top_margin{
@@ -255,21 +288,21 @@ object{
     background: transparent;
 }
 
-
-@media only screen and (min-device-width : 1375px) and (max-device-width : 1680px) { 
-    
-    .navigation{
-        font-size:102px;
-        line-height: 104px;
+@media only screen and (min-width : 1441px) and (max-width : 1700px) { 
+ 
+    .center{
+        width: 88.5vw;
+        height: 100vh;
+        margin: auto;
     }
-    
-    .description{
-        font-size:15px;
+}
+@media only screen and (min-width : 1280px) and (max-width : 1440px) { 
+ 
+    .center{
+        width: 87vw;
+        height: 100vh;
+        margin: auto;
     }
-    .about{
-        font-size:110px;
-        line-height: 115px;
-    }    
 }
 
 
