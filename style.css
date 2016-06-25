@@ -65,6 +65,7 @@
 }
 .underline{
     text-decoration: underline;
+    cursor: pointer;
 }
 .underline a:link,  .underline a:visited{color: black; text-decoration: none;}
 .underline a:hover{opacity: 0.5; transition: 0.3s;}
@@ -84,14 +85,33 @@
     font-size: 30px;
     margin: 0;
 }
-.u_head_arabic{
+.head_arabic{
     font-family: HelveticaNeueLT;
     font-size: 2.2em;
     line-height: 1em;
     margin: 0;
+    text-align: right;
 }
-    
+.body_arabic{
+    font-family: HelveticaNeueLT;
+    font-size:16px;
+    line-height: 1.1em;
+    margin: 0;
+    text-align: right;
+}
+.n_head{
+    font-family: nadeemregular;
+    font-size: 30px;
+    margin: 0;
+}
 
+
+
+.acc_trigger a:link, .acc_trigger a:visited{color: black; text-decoration: none;}
+.acc_trigger p:hover{opacity: 0.5; transition: 0.3s;}
+.acc_trigger p{text-decoration: underline; display: inline;
+    cursor: pointer;}
+ span.acc_trigger.active p {opacity: 0.5; transition: 0.3s; text-decoration: none;}
 
 
 
@@ -287,6 +307,11 @@ viewer-pdf-toolbar {
 object{
     background: transparent;
 }
+
+
+.show:hover{opacity: 0.5; transition: 0.3s;}
+
+
 
 @media only screen and (min-width : 1441px) and (max-width : 1700px) { 
  
