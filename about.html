@@ -152,19 +152,19 @@ titled Between East and West: A Gulf, at the 15th International Architecture Exh
 
                             <span class="bold">Editor and Publication Coordinator</span><br></p>
                             <span class="acc_trigger"><a href="#"><p class="u_body">Muneerah Alrabe</p></a></span>
-                            <div class="acc_container"><p class="u_body">A Master of Science
+                            <div class="acc_container" data-topbar data-options="scrolltop:false;"><p class="u_body">A Master of Science
                                 of Architecture candidate in the Aga Khan Program for Islamic Architecture (AKPIA) at Massachusetts Institute of Technology (MIT). She holds a Bachelor of Architecture from Syracuse University and has professional experience in the  eld of architecture and design in Kuwait and Germany. Her interests lie in the intersection of politics, sociology, economics and design in the Arab World. As a student of AKPIA, she has conducted research on the transnational power relations of the Gulf Cooperative Council’s interconnection grid as a tool for regional power and nation building. In addition, she has investigated the current and past socio-political movements in Kuwait to understand their impact on urban form and urban life within Kuwait and the Arabian Gulf. Currently, she is investigating the socio-spatial politics of public space within Kuwait City in the hopes of achieving a new understating of public spaces within Kuwait City, in order to enhance and develop public life within Kuwait.</p>
                             </div><br><br>
 
                 <p class="u_body"><span class="bold">Graphic Designer and Art Director</span></p>
                              <span class="acc_trigger"><a href="#"><p class="u_body">Fahad Alhunaif</p></a></span>
-                            <div class="acc_container"><p class="u_body">New York based graphic designer and art director. He has worked with various magazines which includes Harvard Design Magazine, White Zinfandel, and Surface Magazine. With a strong interest in photography and styling, Fahad has art direct- ed many shoots which includes the album cov- er art for JD Samson, and has styled multiple sets for Surface Magazine and Adult Magazine. With a Masters Degree in Graphic Design from Parsons the New School for Design, Fahad graduated with top honors and recognition. He is a critic at Syracuse University.</p>
+                            <div class="acc_container" data-topbar data-options="scrolltop:false;"><p class="u_body">New York based graphic designer and art director. He has worked with various magazines which includes Harvard Design Magazine, White Zinfandel, and Surface Magazine. With a strong interest in photography and styling, Fahad has art direct- ed many shoots which includes the album cov- er art for JD Samson, and has styled multiple sets for Surface Magazine and Adult Magazine. With a Masters Degree in Graphic Design from Parsons the New School for Design, Fahad graduated with top honors and recognition. He is a critic at Syracuse University.</p>
                             </div><br><br>
         
                 
                 
                 <p class="u_body"><span class="bold">Exhibition Curators</span></p>
-                            <span class="acc_trigger"><a href="#"><p class="u_body">Ali Karimi</p></a></span><div class="acc_container"><p class="u_body">A Bahraini Master in Architecture candidate at the Harvard Graduate School of Design. His interests are in social housing, public space, and infrastructural re-imaginings of the Gulf. Ali has worked in Dubai with HOK, in Chile with Elemental, and attained regional experience in public and private projects through his time in Bahrain with Gulf House Engineering. Ali has also conducted research on government-built housing in the GCC with the Affordable Housing Institute in Boston as a Joint Center for Housing Studies Fellow; and in Havana with a grant from the David Rockefeller Center for Latin American Studies. His work has been published in San Rocco, CLOG, Wall- paper Magazine and the GSD Platform Books.</p>
+                            <span class="acc_trigger"><a href="#"><p class="u_body">Ali Karimi</p></a></span><div class="acc_container" data-topbar data-options="scrolltop:false;"><p class="u_body">A Bahraini Master in Architecture candidate at the Harvard Graduate School of Design. His interests are in social housing, public space, and infrastructural re-imaginings of the Gulf. Ali has worked in Dubai with HOK, in Chile with Elemental, and attained regional experience in public and private projects through his time in Bahrain with Gulf House Engineering. Ali has also conducted research on government-built housing in the GCC with the Affordable Housing Institute in Boston as a Joint Center for Housing Studies Fellow; and in Havana with a grant from the David Rockefeller Center for Latin American Studies. His work has been published in San Rocco, CLOG, Wall- paper Magazine and the GSD Platform Books.</p>
                             </div>,
                             <span class="acc_trigger"><a href="#"><p class="u_body">Hamed Bukhamseen</p></a></span><div class="acc_container"><p class="u_body">A graduate of theHarvard University Graduate School of Design where he earned a Master of Architecture in Urban Design. With a Bachelor of Architecture and Bachelor of Fine Arts from the Rhode Island School of Design, he was awarded the Architecture Alumni Travel Award where he undertook studies and interventions on public water infrastructure. He has worked interna- tionally within the US, Germany and Kuwait
 on various architectural and artistic projects. Aimed primarily at the merger of interests in art and architecture across the urban realm, his work has been published in numerous media outlets and has been exhibited in Cambridge, Rome, Venice, and Dublin.</p>
@@ -247,10 +247,11 @@ Musallam, Jaber Al Qallaf, Jassim Al Shamali.</p><br><br><br><br>
             $('.acc_trigger').removeClass('active').next().slideUp(300);
             $(this).toggleClass('active').next().slideDown(300);
         }
-
+        return false; 
+        e.preventDefault();
     });
 
-    
+   
 
 });
 </script>
