@@ -418,8 +418,8 @@ object{
     .center{height: 0;}
     .center_m{
         width: 92vw;
-        height: 90vh;
-        margin: 2vh 4vw 8vh;
+        height: 88vh;
+        margin: 2vh 4vw 10vh;
         vertical-align: middle;
         float: left;
     }
