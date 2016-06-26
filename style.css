@@ -383,8 +383,8 @@ object{
     
     .center{
         width: 92vw;
-        height: 82vh;
-        margin: 9vh 4vw;
+        height: 90vh;
+        margin: 4vh 4vw 6vh;
         vertical-align: middle;
         float: left;
     }
@@ -407,7 +407,7 @@ object{
         height: 100%;
         margin: 0;
     }
-    
+    /*
     
     .top_navi{
         width: 100vw;
@@ -429,11 +429,10 @@ object{
         float: left;
     }
 
-    .T_button {
-        position: relative;
-        top:30%;
+    .T_button {display: inline-block;
+    vertical-align: middle;
     }  
-    
+    */
     .bottom_navi{
         width: 100vw;
         height: 40px;
@@ -446,7 +445,7 @@ object{
         font-size: 12px;
     }
     .bottom_button{
-        width: 33.33%;
+        width: 25%;
         height: 100%;
         background-color: rgba(170,170,170,1);
         float: left;
@@ -455,5 +454,7 @@ object{
         position: relative;
         top: 30%;
     }  
-    
+    .top_navi a:link, .top_navi a:hover, .top_navi a:visited{color: white; text-decoration: none;}
+    .bottom_navi a:link, .bottom_navi a:hover, .bottom_navi a:visited{color: white; text-decoration: none;}
+
 }
