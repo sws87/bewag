@@ -131,9 +131,10 @@ body{
     background-size: cover;
 }
 .wrapper_m{
-        height: 0;
-        opacity: 0;
-    }
+    width: 0;
+    height: 0;
+    overflow: hidden
+}
 .left_navi{
     width: 50px;
     height: 100vh;
@@ -293,6 +294,13 @@ body{
 .top_margin a:link, .top_margin a:visited{color: black; text-decoration: none;}
 .u_head a:hover{opacity: 0.5; transition: 0.3s;}
 
+.top_margin_m{
+        width: 0;
+        height: 0;
+        display: none;
+        overflow: hidden
+    }
+
 paper-toolbar {
     opacity: 0;
 }
@@ -370,7 +378,7 @@ object{
     }
     .n_head{
         font-family: nadeemregular;
-        font-size: 30px;
+        font-size: 1.3em;
         margin: 0;
     }
     #logo1, .logo1{
@@ -414,6 +422,7 @@ object{
         height: 100vh;
         background-image: url("Grid.png");
         background-size: cover;
+        overflow: auto;
     }
     .center{height: 0;}
     .center_m{
@@ -497,25 +506,36 @@ object{
     .bottom_navi a:link, .bottom_navi a:hover, .bottom_navi a:visited{color: white; text-decoration: none;}
     
     .top_margin{
+        width: 0;
+        height: 0;
+        display: none;
+        overflow: hidden
+    }
+    .top_margin_m{
+        display: block;
         height: auto;
         width: 92vw;
     }
+    
+    .top_margin_m a:link, .top_margin_m a:visited{color: black; text-decoration: none;}
+.u_head a:hover{opacity: 0.5; transition: 0.3s;}
+
     .col_5{
         width: 0;
         height: 0;
-        display: flex;
+        display: none;
         overflow: hidden
     }
     .col_1{
          width: 0;
         height: 0;
-        padding-top: 4vh; 
+        display: none;
         overflow: hidden
     }
     .col_3{
          width: 0;
         height: 0;
-        padding-top: 4vh; 
+        display: none;
         overflow: hidden
     }
     hr{border-width: 0.5px;}
