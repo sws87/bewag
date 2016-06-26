@@ -351,7 +351,7 @@ object{
     }
     .t_body{
         font-family: Tiempos Text Regular;
-        font-size: 1.04em;
+        font-size: 1.1em;
         margin: 0;
     }
     .head_arabic{
@@ -518,7 +518,7 @@ object{
         padding-top: 4vh; 
         overflow: hidden
     }
-    
+    hr{border-width: 0.5px;}
 }
 
 
