@@ -423,7 +423,7 @@ object{
         vertical-align: middle;
         float: left;
     }
-    .center iframe{
+    .center_m iframe{
         width: 100%;
         height: 100%;
         border: none;
@@ -491,7 +491,7 @@ object{
     }
     .B_button {
         position: relative;
-        top: 30%;
+        top: 31%;
     }  
     .top_navi a:link, .top_navi a:hover, .top_navi a:visited{color: white; text-decoration: none;}
     .bottom_navi a:link, .bottom_navi a:hover, .bottom_navi a:visited{color: white; text-decoration: none;}
