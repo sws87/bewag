@@ -365,7 +365,7 @@ object{
     .head_arabic{
         font-family: HelveticaNeueLT;
         font-size: 1.5em;
-        line-height: 1em;
+        line-height: 0.9em;
         margin: 0;
         text-align: right;
     }
