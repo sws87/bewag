@@ -68,7 +68,7 @@
     cursor: pointer;
 }
 .underline a:link,  .underline a:visited{color: black; text-decoration: none;}
-.underline a:hover{opacity: 0.5; transition: 0.3s;}
+.underline a:hover{opacity: 0.5; transition: 0.2s;}
 
 .u_head{
     font-family: unionregular;
@@ -109,7 +109,7 @@
 
 
 .acc_trigger a:link, .acc_trigger a:visited{color: black; text-decoration: none;}
-.acc_trigger p:hover{opacity: 0.5; transition: 0.3s;}
+.acc_trigger p:hover{opacity: 0.5; transition: 0.1s;}
 .acc_trigger p{text-decoration: none; display: inline;
     cursor: pointer;}
  span.acc_trigger.active p {opacity: 0.5; transition: 0.3s; text-decoration: none;}
@@ -183,7 +183,9 @@ body{
 .left_navi_ar a:link, .left_navi_ar a:hover, .left_navi_ar a:visited{color: white; text-decoration: none;}
 .right_navi a:link, .right_navi a:hover, .right_navi a:visited{color: white; text-decoration: none;}
 
-.col_1 a:link, .col_1 a:hover, .col_1 a:visited{color: black; text-decoration: none;}
+.col_1 a:link, .col_1 a:visited{color: black; text-decoration: none;}
+.col_1 a:hover {opacity: 0.5; transition: 0.2s;}
+
 
 .center{
     width: 90vw;
