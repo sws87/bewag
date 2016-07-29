@@ -530,6 +530,7 @@ object{
         margin: 2vh 4vw 10vh;
         vertical-align: middle;
         float: left;
+        position: fixed;
     }
     .center_m iframe{
         width: 100%;
