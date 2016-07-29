@@ -183,8 +183,7 @@ body{
 .left_navi_ar a:link, .left_navi_ar a:hover, .left_navi_ar a:visited{color: white; text-decoration: none;}
 .right_navi a:link, .right_navi a:hover, .right_navi a:visited{color: white; text-decoration: none;}
 
-.col_1 a:hover, .col_1 a:visited{color: black; text-decoration: none;}
-.col_1 a:link {color: black; text-decoration: underline;}
+.col_1 a:link, .col_1 a:hover, .col_1 a:visited{color: black; text-decoration: none;}
 
 .center{
     width: 90vw;
@@ -414,6 +413,9 @@ object{
 @media only screen and (min-width : 2200px) and (max-width : 2600px) { 
  
     .left_navi{
+    width: 60px;
+    }
+    .left_navi_ar{
     width: 60px;
     }
     .right_navi{
@@ -651,7 +653,7 @@ object{
     }
     .thankslogo img{
         width:38vw;
-            padding: 0;
+        padding: 0;
     }
 
 
@@ -670,9 +672,14 @@ object{
         margin-left: 11%;    
     }
     .thankslogo_ar img{
-        width:8vw;
-            padding: 9px 0 0 0;
+        width:38vw;
+        padding: 0;
     }
+    a:-webkit-any-link {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
 }
 
 
