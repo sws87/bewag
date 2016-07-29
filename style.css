@@ -517,7 +517,7 @@ object{
         align-items: center;
         width: 100vw;
         height: 100vh;
-        background-image: url("Grid.png");
+        background-image: url("Grid1.png");
         background-size: cover;
         overflow: auto;
     }
