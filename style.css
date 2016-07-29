@@ -127,6 +127,8 @@ body{
     width: 100vw;
     background-image: url("Grid1.png");
     background-size: cover;
+    background-repeat:repeat-y ;
+    overflow: auto;
 }
 .wrapper_m{
     width: 0;
