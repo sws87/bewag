@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Tiempos Text Regular';
+  src: url('TiemposText-Regular.eot'); /* IE9 Compat Modes */
+  src: url('TiemposText-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('TiemposText-Regular.woff') format('woff'), /* Modern Browsers */
+       url('TiemposText-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('TiemposText-Regular.svg#18c4e9297c5120922bc4b199e3714bf1') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
