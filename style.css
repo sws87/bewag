@@ -387,6 +387,16 @@ object{
         padding: 9px 0 0 0;
 }
 
+.scroll-wrapper {
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
+
+	/* important:  dimensions or positioning here! */
+}
+
+.scroll-wrapper iframe {
+	/* nada! */
+}
 
 /*
 #sponsorlogo2{
@@ -526,11 +536,10 @@ object{
     .center{height: 0;}
     .center_m{
         width: 92vw;
-        height: 88vh;
+        height: 98vh;
         margin: 2vh 4vw 10vh;
         vertical-align: middle;
-        float: left;
-        position: fixed;    
+        float: left; 
     }
     .center_m iframe{
         width: 100%;
