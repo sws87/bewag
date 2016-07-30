@@ -564,7 +564,7 @@ object{
         margin: 0;
     }
     .t_body{
-        font-family: Tiempos Text Regular;
+        line-height: 1.5em;
         font-size: 1.1em;
         margin: 0;
     }
@@ -756,11 +756,11 @@ object{
     
     .sponsorlogo{
         float:right;
-        margin-right: 3%;
+        margin-top: 5%;
 
     }
     .sponsorlogo img{
-        height: 110px;
+        height: 50px;
     }
     .thankslogo{
         float:left;
@@ -775,11 +775,11 @@ object{
 
     .sponsorlogo_ar{
         float:left;
-        margin-right: 3%;
+        margin-top: 2%;
 
     }
     .sponsorlogo_ar img{
-        height: 110px;
+        height: 50px;
     }
 
     .thankslogo_ar{
