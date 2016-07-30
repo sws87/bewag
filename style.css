@@ -408,7 +408,8 @@ object{
 }
 
 
-
+.sponsorlogo a:hover{opacity: 0.7; transition:0.2s;}
+.sponsorlogo_ar a:hover{opacity: 0.7; transition:0.2s;}
 
 
 
