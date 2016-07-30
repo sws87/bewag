@@ -63,6 +63,7 @@
 .bold{
     font-family: unionbold;
 }
+.bold_ar{font-weight: 700; letter-spacing: 0.5;}
 .underline{
     text-decoration: underline;
     cursor: pointer;
@@ -77,12 +78,14 @@
 }
 .u_body{
     font-family: unionregular;
-    font-size:15px;
+    font-size:14px;
+    line-height: 18px;
     margin: 0;
 }
 .t_body{
     font-family: Tiempos Text Regular;
-    font-size: 30px;
+    font-size: 28px;
+    line-height: 36px;
     margin: 0;
 }
 .head_arabic{
@@ -96,7 +99,7 @@
 .body_arabic{
     font-family: HelveticaNeueLT;
     font-size:16px;
-    line-height: 1.1em;
+    line-height: 1.em;
     margin: 0;
     text-align: right;
 }
@@ -188,6 +191,20 @@ body{
 .col_1 a:link, .col_1 a:visited{color: black; text-decoration: none;}
 .col_1 a:hover {opacity: 0.5; transition: 0.2s;}
 
+
+
+.credit{
+    font-family: unionregular;
+    font-size:14px;
+    line-height: 18px;
+}
+.credit_ar{
+    font-family: HelveticaNeueLT;
+    font-size:16px;
+    line-height: 1.2em;
+    margin: 0;
+    text-align: right;
+}
 
 .center{
     width: 90vw;
@@ -314,7 +331,7 @@ body{
     padding-top: 4vh; 
 }
 .top_margin{
-    height: 15vh;
+    height: 16vh;
     width: 100%;
     
 }
@@ -424,6 +441,23 @@ object{
      height: 110px;
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width : 2200px) and (max-width : 2600px) { 
  
     .left_navi{
@@ -443,13 +477,74 @@ object{
         height: 100vh;
         margin: auto;
     }
+    .left_navi{
+        font-size: 13px;
+    }
+    .left_navi_ar{
+        font-size: 13px;
+    }
+    .right_navi{
+        font-size: 13px;
+    }
+    .u_body{
+        font-size:13px;
+        line-height: 17px;
+    }
+    .u_head{
+        font-size:1.8em;
+    }
+    .t_body {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .n_head {
+        font-size: 25px;
+    }
+    .head_arabic {
+        font-size: 1.8em;
+    }
+    .body_arabic {
+        font-size: 14px;
+    }
+    .sponsorlogo img {
+        height: 100px;
+    }
+    .sponsorlogo_ar img {
+        height: 85px;
+    }
 }
-@media only screen and (min-width : 1280px) and (max-width : 1440px) { 
+@media only screen and (min-width : 1000px) and (max-width : 1440px) { 
  
+    .left_navi{
+        font-size: 12px;
+    }
+    .left_navi_ar{
+        font-size: 12px;
+    }
+    .right_navi{
+        font-size: 12px;
+    }
     .center{
         width: 87vw;
         height: 100vh;
         margin: auto;
+    }
+    .t_body {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .u_body {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .u_head{
+        font-size:1.5em;
+    }
+    .sponsorlogo img {
+        height: 80px;
+    }
+    .sponsorlogo_ar img {
+        height: 65px;
     }
 }
 
