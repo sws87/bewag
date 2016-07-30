@@ -371,6 +371,7 @@ object{
 .sponsorlogo{
     float:right;
     margin-right: 3%;
+    margin-top: 1%;
         
 }
 .sponsorlogo img{
@@ -406,41 +407,29 @@ object{
         padding: 9px 0 0 0;
 }
 
-.scroll-wrapper {
-	-webkit-overflow-scrolling: touch;
-  	overflow-y: scroll;
 
-	/* important:  dimensions or positioning here! */
-}
 
-.scroll-wrapper iframe {
-	/* nada! */
-}
 
-/*
-#sponsorlogo2{
-    margin-right: 3%;
-    float:right;
-}
-#sponsorlogo2 img{
-     height: 110px;
-}
-#sponsorlogo1_ar{
-    float:left;
-    margin-right: 3%;
-        
-}
-#sponsorlogo1_ar img{
-    height: 110px;
-}
-#sponsorlogo2_ar{
-    margin-right: 3%;
-    float:left;
-}
-#sponsorlogo2_ar img{
-     height: 110px;
-}
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
