@@ -91,8 +91,8 @@
 .head_arabic{
     font-family: HelveticaNeueLT;
     font-size: 2.2em;
-    line-height: 1em;
-    margin: 0;
+    line-height: 0.8em;
+    margin: 3% 0 0 0;
     text-align: right;
     
 }
@@ -201,7 +201,7 @@ body{
 .credit_ar{
     font-family: HelveticaNeueLT;
     font-size:16px;
-    line-height: 1.2em;
+    line-height: 1.4em;
     margin: 0;
     text-align: right;
 }
@@ -430,6 +430,9 @@ object{
 
 
 
+/*--------------Media----------------*/
+
+
 
 
 
@@ -460,7 +463,7 @@ object{
     width: 60px;
     }
 }
-@media only screen and (min-width : 1441px) and (max-width : 1700px) { 
+@media only screen and (min-width : 1300px) and (max-width : 1700px) { 
  
     .center{
         width: 88.5vw;
@@ -475,6 +478,14 @@ object{
     }
     .right_navi{
         font-size: 13px;
+    }
+    .credit{
+        font-size:13px;
+        line-height: 17px;
+    }
+    .credit_ar{
+        font-size:14px;
+        line-height: 1.4em;
     }
     .u_body{
         font-size:13px;
@@ -503,7 +514,7 @@ object{
         height: 85px;
     }
 }
-@media only screen and (min-width : 1000px) and (max-width : 1440px) { 
+@media only screen and (max-width : 1299px) { 
  
     .left_navi{
         font-size: 12px;
@@ -519,6 +530,14 @@ object{
         height: 100vh;
         margin: auto;
     }
+    .credit{
+        font-size:11px;
+        line-height: 14px;
+    }
+    .credit_ar{
+        font-size:12px;
+        line-height: 1.4em;
+    }
     .t_body {
         font-size: 18px;
         line-height: 26px;
@@ -530,8 +549,18 @@ object{
     .u_head{
         font-size:1.5em;
     }
+    
+    .n_head {
+        font-size: 19px;
+    }
+    .head_arabic {
+        font-size: 1.5em;
+    }
+    .body_arabic {
+        font-size: 12px;
+    }
     .sponsorlogo img {
-        height: 80px;
+        height: 75px;
     }
     .sponsorlogo_ar img {
         height: 65px;
@@ -561,7 +590,7 @@ object{
     .head_arabic{
         font-family: HelveticaNeueLT;
         font-size: 1.2em;
-        line-height: 0.9em;
+        line-height: 0.8em;
         margin: 0;
         text-align: right;
     }
