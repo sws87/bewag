@@ -390,7 +390,7 @@ object{
 
 .sponsorlogo_ar{
     float:left;
-    margin-right: 3%;
+    margin-left: 3%;
         
 }
 .sponsorlogo_ar img{
@@ -495,7 +495,7 @@ object{
         font-size:1.8em;
     }
     .t_body {
-        font-size: 23px;
+        font-size: 22px;
         line-height: 33px;
     }
     .n_head {
