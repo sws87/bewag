@@ -164,7 +164,7 @@ body{
     color: white;
     text-align: center;
     vertical-align: middle;
-    font-family: unionregular;
+    font-family: HelveticaNeueLT;
     position: fixed;
     left: 0;
     
@@ -417,7 +417,7 @@ object{
 .footer{
     width: inherit;
     border-top: 1px solid gray;
-    margin-bottom: 4vh;
+    margin-bottom: 6vh;
 }
 
 .footer_1{
