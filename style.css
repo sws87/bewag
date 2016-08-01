@@ -716,8 +716,7 @@ object{
         vertical-align: middle;
         float: left; 
         -webkit-overflow-scrolling: touch;
-        overflow-y: scroll;
-        position: fixed;
+        overflow: scroll;
     }
     .media_view iframe{
         width: 100%;
