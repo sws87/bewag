@@ -616,7 +616,7 @@ object{
     
     .u_head{
         font-family: unionregular;
-        font-size:1.1em;
+        font-size:1.2em;
         margin: 0;
     }
     .u_body{
@@ -631,7 +631,7 @@ object{
     }
     .head_arabic{
         font-family: HelveticaNeueLT;
-        font-size: 1.1em;
+        font-size: 1.2em;
         line-height: 0.8em;
         margin: 0;
         text-align: right;
