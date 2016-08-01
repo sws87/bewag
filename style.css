@@ -690,7 +690,8 @@ object{
         height: 100vh;
         background-image: url("Grid1.png");
         background-size: cover;
-        overflow: auto;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
     }
     .center{height: 0;}
     .center_m{
@@ -699,7 +700,6 @@ object{
         margin: 2vh 4vw 10vh;
         vertical-align: middle;
         float: left; 
-        -webkit-overflow-scrolling: touch;
         
     }
     .m_logo{
