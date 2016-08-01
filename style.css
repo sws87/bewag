@@ -258,11 +258,23 @@ body{
 .L_button {
     position: relative;
     top: 50%;
+    left: -50px;
+    width: 150px;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); 
     transform: rotate(-90deg);
 }  
+.L_button_ar {
+    position: relative;
+    top: 50%;
+    left: 48px;
+    width: 150px;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%); 
+    transform: rotate(-90deg);
+} 
 .R_button {
     position: relative;
     top: 50%;
@@ -463,7 +475,26 @@ object{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------Media----------------*/
+
+
+
+
+
+
 
 
 
@@ -495,7 +526,12 @@ object{
     .right_navi{
     width: 60px;
     }
-}
+    .L_button {
+        left: -45px;
+    }
+    .L_button_ar {
+        left: 42px;
+    }
 @media only screen and (min-width : 1300px) and (max-width : 1700px) { 
  
     .center{
@@ -547,7 +583,7 @@ object{
         height: 85px;
     }
 }
-@media only screen and (max-width : 1299px) { 
+@media only screen and (min-width : 1000px)and (max-width : 1299px) { 
  
     .left_navi{
         font-size: 12px;
