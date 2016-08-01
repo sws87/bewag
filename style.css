@@ -920,7 +920,7 @@ object{
 
 
 
-@media only screen and (min-width : 147px) and (max-width : 999px) and (orientation: landscape)  {
+@media only screen and (min-device-width : 147px) and (max-device-width : 999px) and (orientation: landscape)  {
 
     
     .u_head{
