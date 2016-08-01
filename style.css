@@ -762,7 +762,7 @@ object{
         vertical-align: middle;
         float: left; 
         -webkit-overflow-scrolling: touch;
-        overflow: hidden;
+        overflow-y: scroll !important;
     }
     .media_view iframe{
         width: 100%;
