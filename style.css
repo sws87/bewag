@@ -411,7 +411,7 @@ object{
 .thankslogo{
     float:left;
     margin-top: 4%;  
-    margin-bottom:5vh;
+    margin-bottom:2vh;
 }
 .thankslogo img{
     width:8vw;
@@ -431,7 +431,7 @@ object{
 .thankslogo_ar{
     float:right;
     margin-top: 4%;
-    margin-bottom:5vh;   
+    margin-bottom:2vh;   
 }
 .thankslogo_ar img{
     width:8vw;
