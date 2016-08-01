@@ -711,8 +711,8 @@ object{
     }
     .media_view{
         width: 92vw;
-        height: 88vh;
-        margin: 2vh 4vw 10vh;
+        height: 98vh;
+        margin: 2vh 4vw 0;
         vertical-align: middle;
         float: left; 
         -webkit-overflow-scrolling: touch;
