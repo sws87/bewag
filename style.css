@@ -737,6 +737,7 @@ object{
         background-image: url("Grid1.png");
         background-size: cover;
         overflow: scroll;
+        -webkit-overflow-scrolling: touch;
     }
     .center{height: 0;}
     .center_m{
