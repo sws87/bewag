@@ -47,6 +47,18 @@
 }
 
 @font-face {
+  font-family: 'HelveticaNeueLT_Bold';
+  src: url('font/helvetica_arabic_bold/HelveticaNeueLTArabic-Bold.eot'); /* IE9 Compat Modes */
+  src: url('font/helvetica_arabic_bold/HelveticaNeueLTArabic-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/helvetica_arabic_bold/HelveticaNeueLTArabic-Bold.woff') format('woff'), /* Modern Browsers */
+       url('font/helvetica_arabic_bold/HelveticaNeueLTArabic-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/helvetica_arabic_bold/HelveticaNeueLTArabic-Bold.svg#16a921d5f5621d3d9972e2b53b879ef9') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+}
+
+
+@font-face {
     font-family: 'nadeemregular';
     src: url('font/nadeem_web/nadeem-webfont.eot');
     src: url('font/nadeem_web/nadeem-webfont.eot?#iefix') format('embedded-opentype'),
@@ -62,7 +74,10 @@
 .bold{
     font-family: unionbold;
 }
-.bold_ar{font-weight: 700; letter-spacing: 0.5;}
+.bold_ar{
+    font-family:  HelveticaNeueLT_Bold;
+}
+
 .underline{
     text-decoration: underline;
     cursor: pointer;
@@ -547,11 +562,10 @@ object{
         margin: auto;
     }
     .credit{
-        font-size:11px;
+        font-size:12px;
         line-height: 14px;
     }
     .credit_ar{
-        
         font-size:12px;
         line-height: 1.4em;
     }
@@ -586,12 +600,23 @@ object{
 
 
 
-@media only screen and (min-width : 147px) and (max-width : 999px) {
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 147px) and (max-width : 999px) and (orientation: portrait)  {
 
     
     .u_head{
         font-family: unionregular;
-        font-size:1.2em;
+        font-size:1.1em;
         margin: 0;
     }
     .u_body{
@@ -606,7 +631,7 @@ object{
     }
     .head_arabic{
         font-family: HelveticaNeueLT;
-        font-size: 1.2em;
+        font-size: 1.1em;
         line-height: 0.8em;
         margin: 0;
         text-align: right;
@@ -796,7 +821,7 @@ object{
 
     }
     .sponsorlogo img{
-        height: 50px;
+        height: 7vh;
     }
     .thankslogo{
         float:left;
@@ -812,10 +837,9 @@ object{
     .sponsorlogo_ar{
         float:left;
         margin-top: 2%;
-
     }
     .sponsorlogo_ar img{
-        height: 50px;
+        height: 7vh;
     }
 
     .thankslogo_ar{
@@ -828,10 +852,10 @@ object{
         padding: 0;
     }
     a:-webkit-any-link {
-    color: black;
-    text-decoration: underline;
-    cursor: pointer;
-}
+        color: black;
+        text-decoration: underline;
+        cursor: pointer;
+    }
 }
 
 

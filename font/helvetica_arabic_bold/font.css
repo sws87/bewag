@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'HelveticaNeueLT Arabic 75 Bold';
+  src: url('HelveticaNeueLTArabic-Bold.eot'); /* IE9 Compat Modes */
+  src: url('HelveticaNeueLTArabic-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('HelveticaNeueLTArabic-Bold.woff') format('woff'), /* Modern Browsers */
+       url('HelveticaNeueLTArabic-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('HelveticaNeueLTArabic-Bold.svg#16a921d5f5621d3d9972e2b53b879ef9') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
