@@ -695,8 +695,8 @@ object{
     .center{height: 0;}
     .center_m{
         width: 92vw;
-        height: 98vh;
-        margin: 2vh 4vw;
+        height: auto;
+        margin: 2vh 4vw 10vh;
         vertical-align: middle;
         float: left; 
     }
@@ -819,6 +819,7 @@ object{
     }
     .thankslogo{
         float:left;
+        width: 100%;
         margin-top: 4%;
         margin-right: 10%;    
     }
@@ -850,6 +851,8 @@ object{
         text-decoration: underline;
         cursor: pointer;
     }
+    .credit a:link, .credit_ar a:link{text-decoration: none;}
+    
 }
 
 
