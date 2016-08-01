@@ -411,7 +411,7 @@ object{
 .thankslogo{
     float:left;
     margin-top: 4%;  
-    margin-bottom:2vh;
+    margin-bottom:5vh;
 }
 .thankslogo img{
     width:8vw;
@@ -431,7 +431,7 @@ object{
 .thankslogo_ar{
     float:right;
     margin-top: 4%;
-    margin-bottom:2vh;   
+    margin-bottom:5vh;   
 }
 .thankslogo_ar img{
     width:8vw;
@@ -870,13 +870,16 @@ object{
     }
     .thankslogo{
         float:left;
-        width: 50%;
-        margin-top: 4%;    
+        width: auto;
+        margin: 3% 8% 5% 0;
     }
     .thankslogo img{
         width:38vw;
         padding: 0;
     }
+        #thankslogo_2{
+            
+        }
 
 
     .sponsorlogo_ar{
@@ -889,8 +892,12 @@ object{
 
     .thankslogo_ar{
         float:right;
-        width: 50%;
-        margin-top: 4%;  
+        width: auto;
+        margin: 3% 0 5% 8%; 
+    }
+    #thankslogo_ar2{
+        margin-top: 6%;
+        
     }
     .thankslogo_ar img{
         width:38vw;
@@ -1130,7 +1137,7 @@ object{
         display: none;
         overflow: hidden
     }
-    hr{border-width: 0.5px; width: 100%;}
+    hr{border-width: 0.5px; width: 100%}
     
     .sponsorlogo{
         float:right;
@@ -1142,10 +1149,12 @@ object{
     }
     .thankslogo{
         float:left;
-        width: 100%;
-        margin-top: 4%;
-        margin-right: 10%;    
+        width: auto;
+        margin-right: 8%;
     }
+        #thankslogo_2{
+            margin-top: 5%;
+        }
     .thankslogo img{
         width:25vw;
         padding: 0;
@@ -1162,9 +1171,12 @@ object{
 
     .thankslogo_ar{
         float:right;
-        width: 100%;
-        margin-top: 4%;
-        margin-left: 11%;    
+        width: auto;
+        margin: 3% 0 3% 8%; 
+    }
+    #thankslogo_ar2{
+        margin-top: 4.5%;
+        
     }
     .thankslogo_ar img{
         width:25vw;
