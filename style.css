@@ -700,7 +700,6 @@ object{
         vertical-align: middle;
         float: left; 
         -webkit-overflow-scrolling: touch;
-        overflow-y: scroll;
         
     }
     .m_logo{
