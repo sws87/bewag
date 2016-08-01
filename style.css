@@ -695,13 +695,10 @@ object{
     .center{height: 0;}
     .center_m{
         width: 92vw;
-        height: 88vh;
-        margin: 2vh 4vw 10vh;
+        height: 98vh;
+        margin: 2vh 4vw;
         vertical-align: middle;
         float: left; 
-        -webkit-overflow-scrolling: touch;
-        overflow-y: scroll;
-        position: fixed;
     }
     .center_m iframe{
         width: 100%;
@@ -715,10 +712,23 @@ object{
         margin: 2vh 4vw 10vh;
         vertical-align: middle;
         float: left; 
+    }
+    .media_view{
+        width: 92vw;
+        height: 88vh;
+        margin: 2vh 4vw 10vh;
+        vertical-align: middle;
+        float: left; 
         -webkit-overflow-scrolling: touch;
         overflow-y: scroll;
         position: fixed;
     }
+    .media_view iframe{
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    
   
     .logowrap{
         display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
