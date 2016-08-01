@@ -532,6 +532,7 @@ object{
     .L_button_ar {
         left: 42px;
     }
+}
 @media only screen and (min-width : 1300px) and (max-width : 1700px) { 
  
     .center{
@@ -583,7 +584,11 @@ object{
         height: 85px;
     }
 }
-@media only screen and (min-width : 1000px)and (max-width : 1299px) { 
+    
+    
+    
+    
+@media only screen and (max-width : 1299px) { 
  
     .left_navi{
         font-size: 12px;
@@ -649,7 +654,10 @@ object{
 
 
 
-@media only screen and (min-device-width : 147px) and (max-device-width : 999px) and (orientation: portrait)  {
+@media only screen 
+    and (min-width : 147px) 
+    and (max-width : 999px) 
+    and (orientation: portrait)  {
 
     
     .u_head{
@@ -920,7 +928,10 @@ object{
 
 
 
-@media only screen and (min-device-width : 147px) and (max-device-width : 999px) and (orientation: landscape)  {
+@media only screen 
+    and (min-width : 147px) 
+    and (max-width : 999px) 
+    and (orientation: landscape)  {
 
     
     .u_head{
@@ -1035,8 +1046,7 @@ object{
         height: 100%;
         border: none;
     }
-    
-  
+
     .logowrap{
         display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
         display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
