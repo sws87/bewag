@@ -300,10 +300,12 @@ body{
    display:block;
     margin:1%;
 }
+.logopart{
+        background-size: contain;
+}
 #logo1, .logo1{
 	background-image: url("img/landscape/Land1.png");
 	background-position: 0 0%;
-    background-size: contain;
 }
 #logo2, .logo2{
 	background-image: url("img/landscape/Land2.png");   
@@ -919,10 +921,12 @@ object{
         font-size: 1.1em;
         margin: 0;
     }
+    .logopart{
+        background-size: cover;
+    }
     #logo1, .logo1{
         background-image: url("img/mlogo/ML-01.png");
         background-position: 0 0%;
-        background-size: contain;
     }
     #logo2, .logo2{
         background-image: url("img/mlogo/ML-02.png");   
@@ -1057,7 +1061,7 @@ object{
         display: block;
         width: 92vw;
         top:2vh; 
-        margin:4vh 0 1.5vh 0;
+        margin:4vh 1% 1.5vh 0;
         height: 16vh;
     }
     
