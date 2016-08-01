@@ -915,7 +915,7 @@ object{
     .iframe-container { position: relative; margin: 5px; height: 0; overflow: hidden; }
 
     .iframe-container-for-wxh-500x350 {
-        padding: 2vh 4vh 160% 4vh; /* padding-bottom = h/w as a % */
+        padding: 2vh 4vh 140% 4vh; /* padding-bottom = h/w as a % */
     }
 
     .iframe-container iframe {
