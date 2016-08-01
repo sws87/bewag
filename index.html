@@ -112,7 +112,7 @@
             
         </div>
         -->
-        <div class="center_m" style="overflow:hidden">
+        <div class="m_logo" >
                 <div class="logowrap">
                     <div class="logopart" id="logo1"></div>
                     <div class="logopart" id="logo2"></div>
@@ -155,3 +155,43 @@
     
     
 </body>
+
+
+
+
+
+
+<script>
+
+
+ var setHeight = $(window).innerHeight(); 
+     $(".viewport").css({'height': setHeight+"px" });
+
+    $(window).on('scroll', function(){
+      //console.log('scrolling');
+    });
+
+    $(window).on('resize', function(){
+      var setHeight = $(window).innerHeight(); 
+      isPortrait = $(window).width() < $(window).height() ? true : false;
+
+      if($(window).width() < 1000) {
+        isMobile = true;
+      } else {
+        isMobile = false;
+      }
+
+      $(".viewport").css({'height': setHeight+"px" });
+
+      $('.mobile').css('height', setHeight+'px');
+
+
+        
+        
+
+
+
+
+</script>
+
+

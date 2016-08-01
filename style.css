@@ -695,7 +695,7 @@ object{
     .center{height: 0;}
     .center_m{
         width: 92vw;
-        height: 98vh;
+        height: 88vh;
         margin: 2vh 4vw 10vh;
         vertical-align: middle;
         float: left; 
@@ -709,7 +709,16 @@ object{
         border: none;
     }
     
-    
+    .m_logo{
+        width: 92vw;
+        height: 88vh;
+        margin: 2vh 4vw 10vh;
+        vertical-align: middle;
+        float: left; 
+        -webkit-overflow-scrolling: touch;
+        overflow-y: scroll;
+        position: fixed;
+    }
   
     .logowrap{
         display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -725,32 +734,7 @@ object{
         height: 100%;
         margin: 0;
     }
-    /*
     
-    .top_navi{
-        width: 100vw;
-        height: 40px;
-        background-color: rgba(170,170,170,1);
-        margin: 0;
-        color: white;
-        text-align: center;
-        vertical-align: middle;
-        font-family: unionregular;
-        position: fixed;
-        font-size: 12px;
-
-    }
-    .top_button{
-        width: 50%;
-        height: 100%;
-        background-color: rgba(170,170,170,1);
-        float: left;
-    }
-
-    .T_button {display: inline-block;
-    vertical-align: middle;
-    }  
-    */
     .left_navi{height: 0;}
     .right_navi{height:0;}
         
