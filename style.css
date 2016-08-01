@@ -699,13 +699,8 @@ object{
         margin: 2vh 4vw 10vh;
         vertical-align: middle;
         float: left; 
+        
     }
-    .center_m iframe{
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-    
     .m_logo{
         width: 92vw;
         height: 88vh;
