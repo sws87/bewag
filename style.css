@@ -44,7 +44,6 @@
        url('font/helvetica_arabic/HelveticaNeueLTArabic-Light.svg#55853ca5f9211af500b019c74d96c990') format('svg'); /* Legacy iOS */
        
   font-style:   normal;
-  font-weight:  200;
 }
 
 @font-face {
@@ -85,7 +84,7 @@
 .t_body{
     font-family: Tiempos Text Regular;
     font-size: 28px;
-    line-height: 36px;
+    line-height: 38px;
     margin: 0;
 }
 .head_arabic{
@@ -98,8 +97,8 @@
 }
 .body_arabic{
     font-family: HelveticaNeueLT;
-    font-size:16px;
-    line-height: 1.em;
+    font-size:15px;
+    line-height: 1.4em;
     margin: 0;
     text-align: right;
 }
@@ -139,6 +138,7 @@ body{
     overflow: hidden
 }
 .left_navi{
+    font-size:14px;
     width: 50px;
     height: 100vh;
     background-color: rgba(170,170,170,1);
@@ -155,6 +155,7 @@ body{
     cursor: pointer;   
 }
 .left_navi_ar{
+    font-size:14px;
     width: 50px;
     height: 100vh;
     background-color: rgba(170,170,170,1);
@@ -172,6 +173,7 @@ body{
     cursor: pointer;   
 }
 .right_navi{
+    font-size:14px;
     width: 50px;
     height: 100vh;
     background-color:rgba(170,170,170,1);
@@ -323,15 +325,15 @@ body{
     padding-top: 4vh; 
 }
 .col_2{
-    width: 40%;
+    width: 15%;
     padding-top: 4vh; 
 }
 .col_3{
-    width: 60%;
+    width: 65%;
     padding-top: 4vh; 
 }
 .top_margin{
-    height: 16vh;
+    height: 18vh;
     width: 100%;
     
 }
@@ -412,12 +414,26 @@ object{
 .sponsorlogo_ar a:hover{opacity: 0.7; transition:0.2s;}
 
 
+.footer{
+    width: inherit;
+    border-top: 1px solid gray;
+    margin-bottom: 4vh;
+}
 
-
-
-
-
-
+.footer_1{
+    width: 20%;
+    float: left;
+}
+.footer_2{
+    width: 15%;
+    float: left;
+}
+.footer_3{
+    width: 65%;
+    float: left;
+}
+.footer a:link, .footer a:visited {color: black; text-decoration: none;}
+.footer a:hover{opacity: 0.7; transition: 0,3s;}
 
 
 
