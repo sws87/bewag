@@ -699,6 +699,8 @@ object{
         margin: 2vh 4vw 10vh;
         vertical-align: middle;
         float: left; 
+        -webkit-overflow-scrolling: touch;
+        overflow-y: scroll;
         
     }
     .m_logo{
