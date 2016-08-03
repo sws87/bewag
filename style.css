@@ -1002,7 +1002,7 @@ object{
         margin: 0;
     }
     .logopart{
-        background-size: cover;
+        background-size: contain;
     }
     #logo1, .logo1{
         background-image: url("img/mlogo/Land1.png");
@@ -1091,7 +1091,7 @@ object{
         -webkit-flex-wrap: nowrap;
         flex-wrap: nowrap;
         width: auto;
-        height: 100%;
+        height: 95%;
         margin: 0;
     }
     
